@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
 }
 
+/* 네비바 */
+
 .header {
   background-color: white;
   position: fixed;
@@ -17,7 +19,6 @@ body {
   width: 100%;
   padding: 0;
   margin: 0 auto;
-  position: relative;
   text-align: center;
 }
 
@@ -82,13 +83,14 @@ input {
     margin-left: 80px;
 }
 
+
+/* 1페이지 */
 .body1 {
     background-color: #FBF7F2;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 760px;
-
 }
 
 .bodyWord {
@@ -101,9 +103,17 @@ input {
    
 }
 
-.bodyWord1, .bodyWord2 {
+.bodyWord1 { 
     width: 60%;
-    padding-left: 55%;
+    padding-left: 40%;
+    margin-bottom: 15px;
+
+} 
+
+.bodyWord2 {
+    width: 60%;
+    padding-left: 40%;
+   
 }
 
 .img2 {
@@ -113,9 +123,384 @@ input {
    
 }
 
-.pic1 {
+.pic2 {
     padding: 20px 0 0 50px;
     width: 800px;
     height: 750px; 
 }
 
+
+/* 2페이지 */
+.body2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 760px;
+
+}
+
+.img3 {
+    padding: 70px 0 0 230px;
+    height: 100%;
+    width: 50vw;
+}
+
+.pic3 {
+    width: 532px;
+    height: 684px;
+    position: relative;
+    align-items: center;
+}
+
+.word {
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 19vw;
+}
+
+
+.word2 { 
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 30px;
+} 
+
+.button1 {
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F1F3F5;
+    height: 50px;
+    width: 135px;
+}
+
+.button1:hover {
+    background-color: #0c0c0c66;
+}
+
+.button2 {
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F1F3F5;
+    height: 50px;
+    width: 200px;
+}
+
+.button2:hover {
+    background-color: #0c0c0c66;
+}
+
+/* 3페이지 */
+
+.body3 {
+    background-color: #E6F3E6;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 760px;
+}
+
+.word_ {
+    height: 100%;
+    width: 45vw;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topWord {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.word_1 { 
+    width: 60%;
+    padding-left: 35%;
+    margin-bottom: 15px;
+
+} 
+
+.word_2 {
+    width: 60%;
+    padding-left: 35%;
+   
+}
+
+.font {
+    font-weight: 1000;
+}
+
+.circle_{
+    margin-left: 185px;
+}
+
+.img4 {
+    margin-top: 30px;
+    width: 40%;
+}
+
+.pic4 {
+    right: 300px;
+}
+
+/* 4페이지 */
+.body4 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 760px;
+}
+
+.img5 {
+    height: 100%;
+    width: 50vw;
+    align-items: center;
+}
+
+.pic5 {
+    margin-left: 30%;
+}
+
+.sentence {
+    height: 100%;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentence1 {
+    margin-right: 100px;
+}
+
+.sentence2 {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.button4 {
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F1F3F5;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+.button4:hover {
+    background-color: #0c0c0c66;
+}
+
+
+/* 5페이지 */
+.body5 {
+    background-color: #E6F3E6;
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    height: 1089px;
+}
+
+.title {
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 80px;
+    padding-top: 100px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.boxWrap {
+    /* border: 3px solid blue; */
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.box {
+    width: 212px;
+    height: 212px;
+    border-radius: 12px;
+    display: block;
+    /* border-bottom: 2px solid orange; */
+}
+
+article {
+    float: left;
+    margin: 0 25px 10px 40px ;
+}
+
+
+.textBox1 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.textBox2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+
+}
+.textBox3 {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.textBox4 {
+    font-size: 13px;
+    color: #868e96;
+    margin-bottom: 45px;
+}
+
+
+/* footer 부분 */
+
+.underText {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footerText {
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 110px;
+    text-align: center;
+
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.footerList1 {
+    height: 30px;
+    /* width: 800px; */
+    display: flex;
+    justify-content: center;
+}
+.footerText1 {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.footerUnder {
+    margin-right: 20px;
+}
+
+.footerUnder:hover {
+    text-decoration: underline;
+}
+
+.footerBottom_ ul li:hover {
+    text-decoration: underline;
+}
+
+.footerBottom_ {
+    display: flex;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.footerBottom_1 {
+    display: flex;
+    flex-direction: column;
+}
+.footerBottom_2 {
+    display: flex;
+    flex-direction: column;
+}
+.footerBottom_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBox {
+    /* border: 3px solid orange; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 40px;
+}
+
+.textFooter {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.footerEnd {
+    /* border: 3px solid red; */
+    width: 1000px;
+    height: 250px;
+    margin-left: 260px;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 13px;
+    color: darkgray;
+    border-top: 1px solid lightgrey;
+    /* display: flex; */
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/* .endList2, .endList3:hover {
+    text-decoration: underline;
+} */
+
+.endList1 {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.endList2 {
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.endList3 {
+    padding-left: 50px;
+}
+
+.endList2, .endList3 {
+    display: flex;
+}
+
+.endLight {
+    float: right;
+    width: 200px;
+    padding-right: 100px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sideText {
+    margin-right: 30px;
+}
+
+
+#global {margin-bottom: 5px;}
